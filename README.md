@@ -24,6 +24,7 @@
        <!-- collection 是一对多的关系 -->
        <collection property="users" resultMap="com.wgc.maven_blog.dao.UsersMapper.BaseResultMap" autoMapping="true"></collection>
        
-       
+       <!- 一对一的关联 -->
+        <constructor ></constrctor>       
        </resultMap>
        
